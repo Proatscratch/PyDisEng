@@ -6,6 +6,6 @@ PyDisEng has NO depencies since tkinter usually comes with python
 How to use!!!:
 
 install the .zip file and send it to the path you want it to be in
-make your game in the same folder
+make your game in the same folder or get all the files in the main folder
 
 Now have fun!!
