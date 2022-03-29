@@ -36,6 +36,7 @@ class Rect:
             return self.x < secr.x+secr.w and secr.x < self.x+self.w and self.y < secr.y+secr.h and secr.y < self.y+self.h
 
 def fill(window,color = (0,0,0,)):
+      window.canvas.delete(Window.tkinter.ALL)
       '''
             Draws a rectangle
             :window | fills the display
@@ -165,3 +166,4 @@ class Sprite():
             '''
             return f"Image({self.x},{self.y},{self.i})"
             
+
